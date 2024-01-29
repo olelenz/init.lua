@@ -36,3 +36,6 @@ require'lspconfig'.typst_lsp.setup{
         -- serverPath = "" -- Normally, there is no need to uncomment it.
 	}
 }
+
+vim.opt.spelllang = "en_gb"
+vim.opt.spell = false
