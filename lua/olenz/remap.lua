@@ -49,3 +49,6 @@ vim.keymap.set("n", "<leader>s", ":setlocal spell!<CR>");
 vim.keymap.set("n", "<leader>t", ":set filetype=typst<CR>");
 vim.keymap.set("n", "<leader>n", "]s");
 vim.keymap.set("n", "<leader>m", "[s");
+vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>");
+vim.keymap.set("n", "<leader>R", ":w <CR> :!gcc %:p -o %:r -Wall && %:p:r <CR>");
+

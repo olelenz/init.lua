@@ -58,4 +58,5 @@ return require('packer').startup(function(use)
  })
 
  use {'kaarmu/typst.vim', ft = {'typst'}} 
+  use('nvim-tree/nvim-tree.lua')
 end)
